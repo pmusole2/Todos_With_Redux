@@ -1,0 +1,11 @@
+import React from 'react'
+
+export const About = () => {
+    return (
+        <div>
+            <h1>About this App</h1>
+            <p>This is a Todo List App made to practice with redux and the redux dev tools.</p>
+            <p className='bg-dark'>Version: 1.0.0</p>
+        </div>
+    )
+}
